@@ -34,17 +34,16 @@
   display: flex;
   min-width: calc(25% - 1px);
   height: 4rem;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid #D1D1D1;
-  border-bottom: 1px solid #D1D1D1;
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .orange {
-  background-color: #F5913E;
-  border-bottom: 1px solid #D1D1D1;
-  
+  background-color: #f5913e;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .first {
@@ -53,7 +52,7 @@
 }
 
 .gray {
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .double {
