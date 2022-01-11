@@ -45,8 +45,8 @@ This is the first project of the Math Magicians application. You will set up the
 
 ### Usage
 
-- Clone the repository using `git clone https://github.com/Hombre2014/math-magicians.git`
-- Change directory into the project folder: `cd math-magicians`
+- Clone the repository using `git clone https://github.com/Hombre2014/react-math-magicians`
+- Change directory into the project folder: `cd react-math-magicians`
 - Run `npm install`
 - Run `npm start`
 - A new browser will open automatically with application loaded
@@ -104,7 +104,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Hombre2014/Math-magicians/issues).
+Feel free to check the [issues page](https://github.com/Hombre2014/react-math-magicians/issues).
 
 ## Show your support
 
