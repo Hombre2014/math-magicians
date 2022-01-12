@@ -1,3 +1,8 @@
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   margin-top: 4rem;
   margin-left: 50%;
@@ -44,6 +49,7 @@
 .orange {
   background-color: #f5913e;
   border-bottom: 1px solid #d1d1d1;
+  border-right: none;
 }
 
 .first {
