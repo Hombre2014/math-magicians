@@ -13,9 +13,27 @@ This is the first project of the Math Magicians application. You will set up the
 ## Requirements:
 
 ### Phase 1, setup project
+- [x] The easiest way to create a React application is using Create React App (CRA) and following the instructions in this [guide](https://create-react-app.dev/docs/getting-started/).
+- [x] The application should run in the browser without errors.
 
-- [ ] The easiest way to create a React application is using Create React App (CRA) and following the instructions in this [guide](https://create-react-app.dev/docs/getting-started/).
-- [ ] The application should run in the browser without errors.
+### Phase 2, components
+- [x] Delete all the boilerplate from CRA (text, images, styles).
+- [x] Create a directory called `components`.
+- [x] Inside components, create a new `Calculator.js` file.
+- [x] In `Calculator.js`, create a React component that matches the design from the screenshot above.
+- [x] Don't add any extra design.
+- [x] Develop just the UI of the calculator; the math logic to make it work will be added in the next project.
+- [x] Use class based components.
+- [x] Once the Calculator is ready, import it and use it in your main component (App.js).
+- [x] Test it in the browser; it should render without problems.
+
+### Phase 3, events
+- [ ] Copy the files [`calculate.js`](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/calculate.js) and [`operate.js`](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/operate.js) into a `logic/` directory in your project.
+- [ ] Analyze the files `calculate.js` and `operate.js`, be sure you understand what they do.
+- [ ] Import the files in your Calculator component.
+- [ ] Implement the event handlers you need to use the math logic from `calculate.js` and `operate.js` in your React component.
+- [ ] Practice what you have learned until now: use `state` and `props`, pass props to child components, use lifecycle methods, lift state up.
+- [ ] Test your app in the browser. It should be able to perform math operations.
 
 ## Built With
 

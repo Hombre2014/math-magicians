@@ -1,3 +1,8 @@
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   margin-top: 4rem;
   margin-left: 50%;
@@ -6,7 +11,7 @@
   max-width: 33.33%;
 }
 
-.screen {
+.display {
   background-color: #858693;
   display: flex;
   flex-direction: row-reverse;
@@ -44,6 +49,7 @@
 .orange {
   background-color: #f5913e;
   border-bottom: 1px solid #d1d1d1;
+  border-right: none;
 }
 
 .first {
@@ -56,7 +62,7 @@
 }
 
 .double {
-  min-width: calc(50%);
+  min-width: calc(50% - 1px);
   text-align: center;
   border-bottom: none;
 }

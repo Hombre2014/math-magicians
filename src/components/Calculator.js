@@ -1,45 +1,56 @@
-import React from 'react';
 import './calculator.css';
+import React from 'react';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      next: null,
+      operation: null,
+      total: null,
+    };
+    this.clickHandler = this.clickHandler.bind(this);
+  }
+
+  clickHandler(e) {
+    this.setState((state) => calculate(state, e.target.textContent));
   }
 
   render() {
+    const { next, operation, total } = this.state;
     return (
       <div className="container">
-        <div className="screen">0</div>
+        <div className="display">{ next || operation || total || 0 }</div>
         <div className="buttons">
           <div className="row">
-            <div className="gray btn-normal">AC</div>
-            <div className="gray btn-normal">+/-</div>
-            <div className="gray btn-normal">%</div>
-            <div className="btn-normal orange first">÷</div>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">AC</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">+/-</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">%</button>
+            <button type="button" onClick={this.clickHandler} className="btn-normal orange first">÷</button>
           </div>
           <div className="row">
-            <div className="gray btn-normal">7</div>
-            <div className="gray btn-normal">8</div>
-            <div className="gray btn-normal">9</div>
-            <div className="btn-normal orange">x</div>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">7</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">8</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">9</button>
+            <button type="button" onClick={this.clickHandler} className="btn-normal orange">x</button>
           </div>
           <div className="row">
-            <div className="gray btn-normal">4</div>
-            <div className="gray btn-normal">5</div>
-            <div className="gray btn-normal">6</div>
-            <div className="btn-normal orange">-</div>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">4</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">5</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">6</button>
+            <button type="button" onClick={this.clickHandler} className="btn-normal orange">-</button>
           </div>
           <div className="row">
-            <div className="gray btn-normal">1</div>
-            <div className="gray btn-normal">2</div>
-            <div className="gray btn-normal">3</div>
-            <div className="btn-normal orange">+</div>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">1</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">2</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal">3</button>
+            <button type="button" onClick={this.clickHandler} className="btn-normal orange">+</button>
           </div>
           <div className="row">
-            <div className="gray btn-normal double">0</div>
-            <div className="gray btn-normal last">.</div>
-            <div className="btn-normal orange last">=</div>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal double">0</button>
+            <button type="button" onClick={this.clickHandler} className="gray btn-normal last">.</button>
+            <button type="button" onClick={this.clickHandler} className="btn-normal orange last">=</button>
           </div>
         </div>
       </div>
