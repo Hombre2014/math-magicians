@@ -6,7 +6,7 @@
   max-width: 33.33%;
 }
 
-.screen {
+.display {
   background-color: #858693;
   display: flex;
   flex-direction: row-reverse;
