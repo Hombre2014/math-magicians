@@ -56,7 +56,7 @@
 }
 
 .double {
-  min-width: calc(50%);
+  min-width: calc(50% - 1px);
   text-align: center;
   border-bottom: none;
 }
