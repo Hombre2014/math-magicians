@@ -28,12 +28,16 @@ This is the first project of the Math Magicians application. You will set up the
 - [x] Test it in the browser; it should render without problems.
 
 ### Phase 3, events
-- [ ] Copy the files [`calculate.js`](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/calculate.js) and [`operate.js`](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/operate.js) into a `logic/` directory in your project.
-- [ ] Analyze the files `calculate.js` and `operate.js`, be sure you understand what they do.
-- [ ] Import the files in your Calculator component.
-- [ ] Implement the event handlers you need to use the math logic from `calculate.js` and `operate.js` in your React component.
-- [ ] Practice what you have learned until now: use `state` and `props`, pass props to child components, use lifecycle methods, lift state up.
-- [ ] Test your app in the browser. It should be able to perform math operations.
+- [x] Copy the files [`calculate.js`](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/calculate.js) and [`operate.js`](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/operate.js) into a `logic/` directory in your project.
+- [x] Analyze the files `calculate.js` and `operate.js`, be sure you understand what they do.
+- [x] Import the files in your Calculator component.
+- [x] Implement the event handlers you need to use the math logic from `calculate.js` and `operate.js` in your React component.
+- [x] Practice what you have learned until now: use `state` and `props`, pass props to child components, use lifecycle methods, lift state up.
+- [x] Test your app in the browser. It should be able to perform math operations.
+
+### Phase 4, refactor with hooks
+- [ ] Refactor the Calculator component (`components/Calculator.js`) from a class based component to a functional component with hooks.
+- [ ] After the refactor is done, test the app in the browser. It should keep the same functionality.
 
 ## Built With
 
@@ -63,8 +67,8 @@ This is the first project of the Math Magicians application. You will set up the
 
 ### Usage
 
-- Clone the repository using `git clone https://github.com/Hombre2014/react-math-magicians`
-- Change directory into the project folder: `cd react-math-magicians`
+- Clone the repository using `git clone https://github.com/Hombre2014/math-magicians`
+- Change directory into the project folder: `cd math-magicians`
 - Run `npm install`
 - Run `npm start`
 - A new browser will open automatically with application loaded
@@ -122,7 +126,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Hombre2014/react-math-magicians/issues).
+Feel free to check the [issues page](https://github.com/Hombre2014/math-magicians/issues).
 
 ## Show your support
 
