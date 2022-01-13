@@ -36,8 +36,8 @@ This is the first project of the Math Magicians application. You will set up the
 - [x] Test your app in the browser. It should be able to perform math operations.
 
 ### Phase 4, refactor with hooks
-- [ ] Refactor the Calculator component (`components/Calculator.js`) from a class based component to a functional component with hooks.
-- [ ] After the refactor is done, test the app in the browser. It should keep the same functionality.
+- [x] Refactor the Calculator component (`components/Calculator.js`) from a class based component to a functional component with hooks.
+- [x] After the refactor is done, test the app in the browser. It should keep the same functionality.
 
 ## Built With
 
