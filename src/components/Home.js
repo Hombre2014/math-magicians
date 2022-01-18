@@ -1,5 +1,5 @@
 const Home = () => (
-  <main className="container">
+  <main className="home">
     <h2>Welcome to our page!</h2>
     <p>
       Mathematics, the science of structure, order, and relation that has evolved from elemental

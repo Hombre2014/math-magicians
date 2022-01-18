@@ -9,8 +9,8 @@ const Calculator = () => {
   };
   const { next, total, operation } = state;
   return (
-    <div className="wrapper">
-      <h2>Let&apos;s do some math!</h2>
+    <div className="wrapper" style={{ marginTop: '4rem' }}>
+      <h2 style={{ marginTop: 0 }}>Let&apos;s do some math!</h2>
       <div className="calc">
         <div className="display">{next || operation || total || 0}</div>
         <div className="buttons">

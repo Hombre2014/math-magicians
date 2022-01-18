@@ -6,14 +6,11 @@ button {
 .wrapper {
   display: flex;
   justify-content: space-between;
+  padding: 0 2rem;
 }
 
 .calc {
   min-width: 500px;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 .display {
