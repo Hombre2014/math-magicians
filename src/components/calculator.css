@@ -3,12 +3,17 @@ button {
   cursor: pointer;
 }
 
-.container {
-  margin-top: 4rem;
-  margin-left: 50%;
+.wrapper {
   display: flex;
-  flex-direction: column;
-  max-width: 33.33%;
+  justify-content: space-between;
+}
+
+.calc {
+  min-width: 500px;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 .display {

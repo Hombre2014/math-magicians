@@ -1,3 +1,33 @@
 body {
   background-color: aliceblue;
 }
+
+.container {
+  margin-top: 4rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+a {
+  margin-right: 1rem;
+  color: #0f36e6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #0020af;
+}
