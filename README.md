@@ -40,22 +40,22 @@ This is the first project of the Math Magicians application. You will set up the
 - [x] After the refactor is done, test the app in the browser. It should keep the same functionality.
 
 ### Phase 5, full website
-- [ ] Create a website consisting of 3 pages: Home, Calculator, and Quote.
-- [ ] The general layout should match these wireframes:
+- [x] Create a website consisting of 3 pages: Home, Calculator, and Quote.
+- [x] The general layout should match these wireframes:
 
 ![screenshot](./src/images/math_magicians_home.png)
 ![screenshot](./src/images/math_magicians_calculator.png)
 ![screenshot](./src/images/math_magicians_quote.png)
 
-- [ ] Add your own styles to improve the look and feel.
-  - [ ] In the lesson about styling, we introduced several ways to add styles in a React application:
-    - [ ] React basic styling (inline styles, importing CSS and pre-processed CSS files).
-    - [ ] CSS modules.
-    - [ ] Styled components.
-  - [ ] In this project, you should use React basic styling.
-- [ ] For every page, you should create a route.
-- [ ] Make sure that navigation links for all 3 routes are displayed on each page.
-- [ ] Use [React Router](https://reactrouter.com/) to make the routes work.
+- [x] Add your own styles to improve the look and feel.
+  - [x] In the lesson about styling, we introduced several ways to add styles in a React application:
+    - [x] React basic styling (inline styles, importing CSS and pre-processed CSS files).
+    - [x] CSS modules.
+    - [x] Styled components.
+  - [x] In this project, you should use React basic styling.
+- [x] For every page, you should create a route.
+- [x] Make sure that navigation links for all 3 routes are displayed on each page.
+- [x] Use [React Router](https://reactrouter.com/) to make the routes work.
 
 ## Built With
 
