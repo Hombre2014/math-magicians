@@ -2,6 +2,7 @@ import react from 'react';
 import {
   BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
+import icon from './images/math-icon.png';
 import './App.css';
 import Home from './components/Home';
 import Quote from './components/Quote';
@@ -13,7 +14,10 @@ class App extends react.Component {
       <Router>
         <main className="container">
           <header>
-            <h1><a href="/">Math Magicians</a></h1>
+            <div className="title">
+              <img src={icon} alt="Math icon" className="icon" />
+              <h1><a href="/">Math Magicians</a></h1>
+            </div>
             <nav>
               <Link to="/">Home</Link>
               <Link to="/Calculator">Calculator</Link>
