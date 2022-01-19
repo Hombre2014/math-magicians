@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing page render Home page renders correctly 1`] = `
+exports[`Testing pages render correctly Home page renders correctly 1`] = `
 <DocumentFragment>
   <main
     class="home"
@@ -18,7 +18,7 @@ exports[`Testing page render Home page renders correctly 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Testing page render Quote page renders correctly 1`] = `
+exports[`Testing pages render correctly Quote page renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="quote"
