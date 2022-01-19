@@ -17,3 +17,22 @@ exports[`Testing page render Home page renders correctly 1`] = `
   </main>
 </DocumentFragment>
 `;
+
+exports[`Testing page render Quote page renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="quote"
+  >
+    <h2
+      style="text-align: center;"
+    >
+      Enjoy our random Math quotes!
+    </h2>
+    <p
+      class="quote-line"
+    >
+      Pure mathematics is, in its way, the poetry of logical ideas. — Albert Einstein
+    </p>
+  </div>
+</DocumentFragment>
+`;
