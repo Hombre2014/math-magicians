@@ -37,6 +37,4 @@ describe('Test calculate function', () => {
     const { asFragment } = render(<Calculator />);
     expect(asFragment()).toMatchSnapshot();
   });
-
-
 });
