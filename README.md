@@ -57,6 +57,17 @@ This is the first project of the Math Magicians application. You will set up the
 - [x] Make sure that navigation links for all 3 routes are displayed on each page.
 - [x] Use [React Router](https://reactrouter.com/) to make the routes work.
 
+### Phase 6, tests
+- [x] Set up React Testing Library.
+  - [x] Follow the instructions in the official [documentation](https://testing-library.com/docs/react-testing-library/intro/).
+  - [x] You don't need to setup Jest (it's included in Create React App).
+- [x] Write unit tests for the files `operate.js` and `calculate.js` using Jest.
+- [x] Create unit tests for all React components:
+  - [x] Use Jest snapshots to test the components.
+  - [x] Use React Testing Library to simulate user interaction.
+- [x] Run your full tests suite using Jest. All tests should pass.
+- [x] You need to use pair-programming for this project.
+
 ## Built With
 
 - Major languages: Javascript
