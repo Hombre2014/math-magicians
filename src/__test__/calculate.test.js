@@ -33,4 +33,10 @@ describe('Test calculate function', () => {
     expect(display.innerHTML).toBe('-3');
   });
 
+  it('check calculator renders correctly', async () => {
+    const { asFragment } = render(<Calculator />);
+    expect(asFragment()).toMatchSnapshot();
+  });
+
+
 });
