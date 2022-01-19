@@ -1,6 +1,12 @@
 import calculate from '../logic/calculate';
 
 describe('Testing user interactions', () => {
+  const obj = {
+    total: null,
+    next: null,
+    operation: null,
+  };
+
   test('When user press 1, the next should have value of 1', () => {
     const userPress = { total: null, next: null, operation: null };
     expect(calculate(userPress, '1')).toEqual({ next: '1', total: null });
@@ -10,12 +16,6 @@ describe('Testing user interactions', () => {
     const testOperation = { total: '4', next: '5', operation: 'x' };
     expect(calculate(testOperation, '=')).toEqual({ total: '20', next: null, operation: null });
   });
-
-  const obj = {
-    total: null,
-    next: null,
-    operation: null,
-  };
 
   test('Testing the function returns an object', () => {
     expect(typeof (calculate(obj, 'AC'))).toBe('object');
