@@ -1,6 +1,6 @@
 import operate from '../logic/operate';
 
-describe('Check for the 4 operation +, -, / and x', () => {
+describe('Check for the 4 operation +, -, ÷ and x', () => {
   test('For adding two numbers', () => {
     expect(operate(1, 2, '+')).toEqual('3');
   });
@@ -13,7 +13,7 @@ describe('Check for the 4 operation +, -, / and x', () => {
     expect(operate(4, 3, 'x')).toEqual('12');
   });
 
-  test('For Divition two numbers', () => {
+  test('For Division two numbers', () => {
     expect(operate(4, 2, '÷')).toEqual('2');
   });
 });

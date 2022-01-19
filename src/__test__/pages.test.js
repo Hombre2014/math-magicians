@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import Home from '../components/Home';
 import Quote from '../components/Quote';
 
-describe('Testing pages render correctly', () => {
+describe('Testing tha Home and Quote pages render correctly', () => {
   it('Home page renders correctly', () => {
     const { asFragment } = render(<Home />);
     expect(asFragment()).toMatchSnapshot();
