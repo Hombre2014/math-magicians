@@ -10,4 +10,22 @@ describe('Testing user interactions', () => {
     const testOperation = { total: '4', next: '5', operation: 'x' };
     expect(calculate(testOperation, '=')).toEqual({ total: '20', next: null, operation: null });
   });
+
+  const obj = {
+    total: null,
+    next: null,
+    operation: null,
+  };
+
+  test('Testing the function returns an object', () => {
+    expect(typeof (calculate(obj, 'AC'))).toBe('object');
+  });
+
+  test('Pressing button AC will returns obj with null values', () => {
+    expect(calculate(obj, 'AC')).toEqual({
+      total: null,
+      next: null,
+      operation: null,
+    });
+  });
 });
