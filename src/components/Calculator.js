@@ -13,7 +13,7 @@ const Calculator = () => {
     <div className="wrapper" style={{ marginTop: '4rem' }}>
       <h2 style={{ marginTop: 0 }}>Let&apos;s do some math!</h2>
       <div className="calc">
-        <div className="display">{display}</div>
+        <div className="display" data-testid="display">{display}</div>
         <div className="buttons">
           <div className="row">
             <button type="button" onClick={clickHandler} className="gray btn-normal">AC</button>

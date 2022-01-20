@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test calculate function Testing that Calculator renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    style="margin-top: 4rem;"
+  >
+    <h2
+      style="margin-top: 0px;"
+    >
+      Let's do some math!
+    </h2>
+    <div
+      class="calc"
+    >
+      <div
+        class="display"
+        data-testid="display"
+      >
+        0
+      </div>
+      <div
+        class="buttons"
+      >
+        <div
+          class="row"
+        >
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="btn-normal orange first"
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="btn-normal orange"
+            type="button"
+          >
+            x
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="btn-normal orange"
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="gray btn-normal"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="btn-normal orange"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="gray btn-normal double"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="gray btn-normal last"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="btn-normal orange last"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
