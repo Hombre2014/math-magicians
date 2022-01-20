@@ -163,6 +163,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+Thanks to [SadiQ HabiL](https://github.com/kingqabil) for his contribution (pair programming) in testing phase.
 
 ## 📝 License
 
