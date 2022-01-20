@@ -67,5 +67,4 @@ describe('Test calculate function', () => {
     const testOperation = { total: '10', next: null, operation: 'x' };
     expect(calculate(testOperation, '+')).toEqual({ total: '10', next: null, operation: '+' });
   });
-
 });
