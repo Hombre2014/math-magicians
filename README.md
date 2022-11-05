@@ -77,8 +77,6 @@ This is the first project of the Math Magicians application. You will set up the
 
 ## Live Demo
 
-Heroku deployment: [Live link](https://yuriy-math-magicians.herokuapp.com/)
-
 Netlify deployment: [Live link](https://yuriy-math-magicians.netlify.app/)
 
 ### Prerequisites
